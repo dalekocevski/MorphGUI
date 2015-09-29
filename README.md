@@ -58,7 +58,7 @@ The options are:
 * -p path_to_thumbnails_dir : Specify path to fits thumbnail directory (default is ./thumbnails/) -n : Do not reset ds9 when advancing to next source
 * -s : Run GUI in silent mode (i.e. no popup notifications)
     
-Controlling DS9 from the GUI:
+### Controlling DS9 from the GUI:
 Although the GUI resizes the DS9 window, all the usual DS9 features and controls are accessible from the DS9 file menu. If you don't want to resort to using the file menu, I've placed a few buttons on the main GUI window that will control DS9. These buttons are fairly self explanatory (i.e. 'Match Stretch' will match your current stretch over the four images, 'Invert Colormap' will invert white/black and 'Reset Frames' sets the images back to their default settings). The button 'Show Segmap' will cause DS9 to show an outline of the sextractor segmentation map for the galaxy displayed. This works most of the time, but it has it's limitations.
 
 ### A Couple of Examples:
