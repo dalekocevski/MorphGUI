@@ -1,8 +1,9 @@
 # MorphGUI README
+CANDELS Visual Classification GUI
 
 MorphGUI is a perl-based visual classification GUI developed as part of the CANDELS survey.
 
-Installation:
+# Installation:
 MorphGUI is a fairly simple perl script, but you'll need a few things to get it working. In addition to ds9, you'll need the Tk module for Perl and the program XPA. The XPA binaries are included in various things like the scisoft distribution and ciao, so you may already have them installed. To check, type 'which xpaset'. If you don't, you can download the binaries for Linux and MacOS from the ds9 website:
 
 http://hea-www.harvard.edu/RD/ds9/
