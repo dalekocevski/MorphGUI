@@ -13,7 +13,7 @@ Make sure to place the XPA binaries somewhere in your path (anywhere will work, 
 
 If you get the response 'Can't locate Tk.pm', then you'll need to install it. You can grab the source code here:
 
-    http://search.cpan.org/~srezic/Tk-804.030/
+http://search.cpan.org/~srezic/Tk-804.030/
 
 To compile it, follow these steps:
 
@@ -62,6 +62,7 @@ Controlling DS9 from the GUI:
 Although the GUI resizes the DS9 window, all the usual DS9 features and controls are accessible from the DS9 file menu. If you don't want to resort to using the file menu, I've placed a few buttons on the main GUI window that will control DS9. These buttons are fairly self explanatory (i.e. 'Match Stretch' will match your current stretch over the four images, 'Invert Colormap' will invert white/black and 'Reset Frames' sets the images back to their default settings). The button 'Show Segmap' will cause DS9 to show an outline of the sextractor segmentation map for the galaxy displayed. This works most of the time, but it has it's limitations.
 
 A Couple of Examples:
+
   1.) Say you want to classify galaxies in the list ERS1.cat and you wish to load your previous results:
 
     MorphGUI.pl ERS1.cat -o old_results.dat
