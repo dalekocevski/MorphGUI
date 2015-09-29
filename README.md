@@ -42,13 +42,13 @@ A few example fits thumbnails are included in this repository.  These should get
     
 The GUI lists the current source (and how many you have remaining) in an info panel at the bottom of the GUI window. This info panel will be red if the galaxy in question has not yet been classified. If you move back (or jump) to source that you have already classified, the panel will turn green. If you click on the "Jump To" button, you'll get a list of all the galaxies in your subsample and whether they've been classified. Remember, you must click the "Submit & Next" button in order for your classification to be saved into memory.
 
-Thumbnail Location:
+### Thumbnail Location:
 The code assumes the fits thumbnails are located in the directory ./thumbnails/ although this can be changed via a command line option (see below). The thumbnails should include the v, z, j, and h "postage stamp" images, as well as the segmentation map cutouts.
 
-Saving/Loading Your Results:
+### Saving/Loading Your Results:
 The GUI can save your current results so you don't have to finish your classifications in one sitting. To do this, use File->Save from the pulldown menu. To load your previous classifications, likewise use File->Open.
 
-Command Line Options:
+### Command Line Options:
 There are a few command line options for the GUI. The calling sequence is:
 
     MorphGUI.pl source_list.cat [-o previous_classifications.dat] [-p path_to_thumbnails] [-n] [-s] 
@@ -61,7 +61,7 @@ The options are:
 Controlling DS9 from the GUI:
 Although the GUI resizes the DS9 window, all the usual DS9 features and controls are accessible from the DS9 file menu. If you don't want to resort to using the file menu, I've placed a few buttons on the main GUI window that will control DS9. These buttons are fairly self explanatory (i.e. 'Match Stretch' will match your current stretch over the four images, 'Invert Colormap' will invert white/black and 'Reset Frames' sets the images back to their default settings). The button 'Show Segmap' will cause DS9 to show an outline of the sextractor segmentation map for the galaxy displayed. This works most of the time, but it has it's limitations.
 
-A Couple of Examples:
+### A Couple of Examples:
 
   1.) Say you want to classify galaxies in the list ERS1.cat and you wish to load your previous results:
 
