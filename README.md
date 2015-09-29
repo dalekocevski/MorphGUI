@@ -29,7 +29,8 @@ You'll need root access for that last step, so you may need to preface that comm
 ### Running the Code:
 Once perl/Tk is installed, simply unpack the GUI tarball and run the commands:
 
-    ds9 -title MorphGUI & MorphGUI.pl examples.lst
+    ds9 -title MorphGUI & 
+    MorphGUI.pl examples.lst
 
 Notice you'll need to launch ds9 first. If you are using the MacOS version of DS9 instead of the X11 version, you'll need to specify the full path to the ds9 binary in order to change the window title. Here's an example:
 
