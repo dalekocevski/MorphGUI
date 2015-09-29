@@ -26,7 +26,7 @@ To compile it, follow these steps:
   
 You'll need root access for that last step, so you may need to preface that command with 'sudo'. Make sure you have X11 running when you compile the code; the 'make test' step will bring up some example GUIs to make sure everything is working.
 
-Running the Code:
+### Running the Code:
 Once perl/Tk is installed, simply unpack the GUI tarball and run the commands:
 
     ds9 -title MorphGUI & MorphGUI.pl examples.lst
